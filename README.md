@@ -1,3 +1,6 @@
 # SO - 04N
 
-## Caio Sampaio Oliveira, Guilherme Picoli Rodrigues e Leonardo Henrique de Oliveira Matos.
+## Grupo:
+### Caio Sampaio Oliveira, TIA 32195621;
+### Guilherme Picoli Rodrigues, TIA 32147317;
+### Leonardo Henrique de Oliveira Matos, TIA 32139561.
