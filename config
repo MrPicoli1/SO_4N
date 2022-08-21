@@ -1,0 +1,6 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://github.com/MrPicoli1/SO_4N-CaioS-Guilherme-P-Leonardo-M.git
