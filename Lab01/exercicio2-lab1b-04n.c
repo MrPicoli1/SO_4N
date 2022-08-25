@@ -2,9 +2,9 @@
 LABORATORIO DE SO - TURMA 04N11
 
 Nomes:
-Caio Sampaio Oliveira, TIA: 32195621.
-Guilherme Picoli Rodrigues, TIA: 32147317.
-Leonardo Henrique de Oliveira Matos, TIA: 32139561.
+Caio Sampaio Oliveira, TIA:32195621.
+Guilherme Picoli Rodrigues, TIA:32147317.
+Leonardo Henrique de Oliveira Matos, TIA:32139561.
 
 Exercicio 2 do Lab 01b - 18/08/22
 */
