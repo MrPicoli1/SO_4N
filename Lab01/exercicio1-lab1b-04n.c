@@ -12,18 +12,16 @@ Exercicio 1 do Lab 01b - 18/08/22
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <string.h>
 
-int main(){
+int main(int numArgs, char *args[]){
   FILE *arquivo;
-  char linha[10000], endereco[1000];
+  char linha[10000];
   char *linhaPtr;
-
-  printf("Digite o caminho do arquivo de texto: ");
-  scanf("%s", endereco);
  
   printf("\n > Lendo o arquivo...\n\n");
 
-  arquivo = fopen(endereco, "r");
+  arquivo = fopen(args[1], "r");
 
   if (arquivo == NULL){
     printf("\nErro ao abrir o arquivo de texto, por favor verifique o nome e extensao do arquivo");
@@ -37,6 +35,8 @@ int main(){
       printf("%s", linha);
     }
   }
+
+  printf("\n\n");
   
   fclose(arquivo);
   
