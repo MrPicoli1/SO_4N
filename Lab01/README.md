@@ -33,6 +33,7 @@ Para teste criamos um arquivo chamado test.txt com o seguinte conteúdo:
 * b
 * c
 * d e f
+
 Portanto, ao executar o programa deve ser impresso essa saída no terminal.
 
 ## Exercício 2 
@@ -61,4 +62,5 @@ Para teste criamos um arquivo chamado test.txt com o seguinte conteúdo:
 * b
 * c
 * d e f
+
 Portanto, ao executar o programa deve ser copiado esse arquivo e seu respectivo contéudo no caminho e arquivo destino.
