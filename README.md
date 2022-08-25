@@ -7,4 +7,4 @@
 
 ## Laboratório:
 ### Lab 01
-Atividades "Lab01a - Hello World" e "Lab01b - Introdução ao Linux": Pasta /Lab1
+Atividades "Lab01a - Hello World" e "Lab01b - Introdução ao Linux": Pasta /Lab01
