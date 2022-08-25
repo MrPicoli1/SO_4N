@@ -12,32 +12,27 @@ Exercicio 2 do Lab 01b - 18/08/22
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <string.h>
 
-int main(){
+int main(int numArgs, char *args[]){
   FILE *arquivoIn, *arquivoOut;
-  char linha[10000], enderecoIn[1000], enderecoOut[1000];
+  char linha[10000];
   char *linhaPtr;
-
-  printf("Digite o caminho de origem do arquivo de texto: ");
-  scanf("%s", enderecoIn);
-
-  printf("\nDigite o caminho de destino do arquvio de texto: ");
-  scanf("%s", enderecoOut);
 
   printf("\n > Lendo o arquivo...\n\n");
 
-  arquivoIn = fopen(enderecoIn, "r");
+  arquivoIn = fopen(args[1], "r");
 
   if (arquivoIn == NULL){
     printf("\nErro ao copiar o arquivo de texto, por favor verifique o nome e extensao de origem e destino do arquivo!");
     return 0;
   }
   
-  arquivoOut = fopen(enderecoOut, "a");
+  arquivoOut = fopen(args[2], "a");
 
   fclose(arquivoOut);
 
-  arquivoOut = fopen(enderecoOut, "w");
+  arquivoOut = fopen(args[2], "w");
 
   if (arquivoOut == NULL){
     printf("\nErro ao copiar o arquivo de texto, por favor verifique o nome e extensao de origem e destino do arquivo!");
