@@ -37,6 +37,7 @@ gcc exercicio1-lab1b-04n.c -o exercicio1-lab1b-04n.out
 
 Para executar o programa "exercicio1-lab1b-04n.c" devemos utilizar o seguinte comando o terminal:
 ./exercicio1-lab1b-04n.out test.txt
+
 OBS: o segundo parâmetro refere-se ao caminho para o arquivo que será lido pelo programa.
 
 ### Como comprovar que pos resultados propostos foram alcançados
@@ -69,6 +70,7 @@ gcc exercicio2-lab1b-04n.c -o exercicio2-lab1b-04n.out
 
 Para executar o programa "exercicio2-lab1b-04n.c" devemos utilizar o seguinte comando o terminal:
 ./exercicio2-lab1b-04n.out test.txt test-cp.text
+
 OBS: o segundo parâmetro refere-se ao caminho para o arquivo que será copiado pelo programa, o segundo argumento refere-se ao caminho do arquivo cópia (destino).
 
 ### Como comprovar que pos resultados propostos foram alcançados
