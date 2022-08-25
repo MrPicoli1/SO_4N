@@ -2,9 +2,19 @@
 
 ### Como compilar o programa
 
+Para compilar o programa "Lab1a.c" devemos utilizar o compilador C GCC e o seguinte comando no terminal:
+gcc Lab1a.c -o Lab1a.out
+
 ### Como executar o programa
 
+Para executar o programa "Lab1a.c" devemos utilizar o seguinte comando o terminal:
+./Lab1a.out
+
 ### Como comprovar que pos resultados propostos foram alcançados
+
+Ao executarmos o comando acima no terminal o programa deverá exibir no terminal essa mensagem:
+
+* Hello World
 
 # Exercícios LAB 1B:
 
@@ -13,6 +23,10 @@
 ### Nome do arquivo
 
 exercicio1-lab1b-04n.c
+
+### Quantas cahamdas de sistemas foram realizadas?
+
+Foram realizadas 4 chamadas.
 
 ### Como compilar o programa
 
@@ -41,6 +55,10 @@ Portanto, ao executar o programa deve ser impresso essa saída no terminal.
 ### Nome do arquivo
 
 exercicio2-lab1b-04n.c
+
+### Quantas cahamdas de sistemas foram realizadas?
+
+Foram realizadas 7 chamadas.
 
 ### Como compilar o programa
 
