@@ -9,20 +9,21 @@ As mensagens sempre estarao ordenadas em funcao de _i_, no teste que relizamos c
 
 ## Nome do arquivo Ex1
 
-
-
-### Quantas cahamdas de sistemas foram realizadas?
-
+criacao_de_processos-lab2a-4N.c
 
 
 ### Como compilar o programa
 
-
+Para compilar o programa "criacao_de_processos-lab2a-4N.c" devemos utilizar o compilador C GCC e o seguinte comando no terminal: gcc criacao_de_processos-lab2a-4N.c -o criacao_de_processos-lab2a-4N.out
 
 ### Como executar o programa
 
+Para executar o programa "criacao_de_processos-lab2a-4N.c" devemos utilizar o seguinte comando o terminal: ./criacao_de_processos-lab2a-4N.out
 
 ### Como comprovar que pos resultados propostos foram alcançados
+
+Ao executarmos o comando acima no terminal o programa deverá exibir no terminal essa mensagem:
+os processos foram contados de 0 ate 1000 com seus respectivos IDs
 
 
 ### Nome do arquivo Ex2
