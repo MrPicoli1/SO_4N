@@ -94,14 +94,14 @@ Para executar o programa "criacao_de_processos-lab2a-4N.c" devemos utilizar o se
 Ao executarmos o comando acima no terminal o programa deverá exibir no terminal essa mensagem:
 os processos foram contados de 0 ate 1000 com seus respectivos IDs
 
-i:1 process ID:11131 parent ID:4339 child ID:11132
-i:2 process ID:11132 parent ID:996 child ID:11133
-i:3 process ID:11133 parent ID:11132 child ID:11134
-i:4 process ID:11134 parent ID:11133 child ID:11135
-i:5 process ID:11135 parent ID:11134 child ID:11136
-i:6 process ID:11136 parent ID:11135 child ID:11137
-i:7 process ID:11137 parent ID:11136 child ID:11138
-i:8 process ID:11138 parent ID:11137 child ID:11139
-i:9 process ID:11139 parent ID:996 child ID:11140
-i:10 process ID:11140 parent ID:11139 child ID:11141
+i:1 process ID:10872 parent ID:10517 child ID:10873
+i:2 process ID:10873 parent ID:997 child ID:10874
+i:3 process ID:10874 parent ID:997 child ID:10875
+i:4 process ID:10875 parent ID:10874 child ID:10876
+i:5 process ID:10876 parent ID:10875 child ID:10877
+i:6 process ID:10877 parent ID:10876 child ID:10878
+i:7 process ID:10878 parent ID:10877 child ID:10879
+i:8 process ID:10879 parent ID:10878 child ID:10880
+i:9 process ID:10880 parent ID:10879 child ID:10881
+i:10 process ID:10881 parent ID:10880 child ID:0
 
