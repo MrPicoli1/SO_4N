@@ -8,8 +8,11 @@
 
 ## Laboratório:
 
-### Lab 01
-* Atividades "Lab01a - Hello World" e "Lab01b - Introdução ao Linux": Pasta /Lab01
+### Lab 01 - Introdução Linux
+* Atividades "Lab01a - Hello World" e "Lab01b - Introdução ao Linux": Pasta **/Lab01**
 
-### Lab 02
-* Atividade "Lab02a - Processos": Pasta /Lab02
+### Lab 02 - Processos
+* Atividade "Lab02a - Processos": Pasta **/Lab02**
+
+### Lab 03 - Pthreads
+* Atividade "Lab03a - Pthreads Parte 1": Pasta **/Lab03**
