@@ -6,6 +6,7 @@
 using namespace std;
 
 int thread_count;
+int A[3][3] = {{1,2,3},{4,5,6},{7,8,9}}, x[3] = {10,11,12}, y[3];
 
 void *Pth_mat_vect(void* rank);
 
@@ -21,7 +22,27 @@ int main(int argc, char* argv[]){
                 pthread_create(&thread_handles[thread], NULL, Pth_mat_vect, (void*) thread);
         }
 
-        printf("Matriz Y:\n");
+	printf("\nMatriz A:\n");
+
+        for (int i = 0; i < 3; i++){
+		
+        	for (int k = 0; i < 3; i++){
+			printf(" %d ", A[i]);
+        	}
+		printf("\n");
+	}
+
+	printf("\nMatriz X:\n");
+
+        for (int i = 0; i < 3; i++){
+		printf(" %d \n", x[i]);
+        }
+
+        printf("\nMatriz Y:\n");
+
+	for (int i = 0; i < 3; i++){
+		printf(" %d \n", y[i]);
+	}
 
         for (thread = 0; thread < thread_count; thread++){
                 pthread_join(thread_handles[thread], NULL);
