@@ -14,5 +14,19 @@ Para executar o programa "exercicio-pthreads-part1-lab03.c" devemos utilizar o s
 
 ### Como comprovar que pos resultados propostos foram alcançados
 
-Ao executarmos o comando acima no terminal o programa deverá pedir o tamanho da matriz, os valores dos elementos da matriz A e do vetor X, e exibir
-a o resultado da multiplicação matriz-vetor em um vetor Y.
+Ao executarmos o comando acima no terminal o programa deverá exibir a matriz A, o vetor X e o resultado da multiplicação matriz-vetor em um vetor Y.
+
+Matriz A:
+ 1  2  3 
+ 4  5  6 
+ 7  8  9 
+
+Matriz X:
+ 10 
+ 11 
+ 12 
+
+Matriz Y:
+ 68 
+ 167 
+ 266 
